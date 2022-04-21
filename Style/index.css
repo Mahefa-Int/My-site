@@ -1,0 +1,184 @@
+p{
+  font-family: 'Comfortaa', cursive !important;
+  font-size: 12px;
+  font-weight: 700;
+}
+.big-content{
+    /* background: url(../Images/1600px_COLOURBOX5204594.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: linear-gradient(119deg,#012535 61%,#f8a61e 41%);
+  
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    background-image: linear-gradient(to  left,#012535 25%, #f8a61e  12%);
+    height: 85vh;
+    box-shadow: 2px;
+    border-radius: 8px;
+}
+.info p{
+    text-transform: uppercase;
+    color: #0d19e1;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.info span{
+    font-weight: bolder;
+}
+
+svg text {
+    letter-spacing: 10px;
+    stroke: #012535;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    animation: textAnimate 5s infinite alternate;
+    
+  }
+  
+  @keyframes textAnimate {
+    0% {
+      stroke-dasharray: 0 50%;
+      stroke-dashoffset:  20%;
+      fill:hsl(0, 0%, 100%)
+  
+    }
+    
+    100% {
+      stroke-dasharray: 50% 0;
+      stroke-dashoffstet: -20%;
+      fill: hsla(189, 68%, 75%,0%)
+    }
+    
+  }
+.viewall {
+    text-align: center;
+}
+.viewall button{
+    background: #012535;
+    border: none;
+    padding: 7px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    filter: url(#gooey);
+}
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+button {
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+      font-size: 20px;
+      font-family: 'Staatliches', cursive;
+      letter-spacing: 5px;
+      background: #ffc421;
+      border: 2px solid black;
+      box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+      transition: 500ms;
+  }
+  
+button:after {
+      content: '';
+      position: absolute;
+      transform: translateX(-55px) translateY(-40px);
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: transparent;
+      box-shadow: 0px 0px 50px transparent;
+      transition: 500ms;
+  }
+  
+button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+  }
+  
+button:hover:after {
+      background: #012535;
+      /* box-shadow: 0px 0px 20px #ffc421, 0px 0px 30px #ffc421, inset 0px 0px 10px #ffc421; */
+      animation: spin 1.5s infinite linear;
+  }
+  
+  @keyframes spin{
+      25%{transform: translateX(-25px) translateY(-35px);
+              width: 15px;
+              height: 15px;}
+      50% {transform: translateX(-55px) translateY(-30px);
+              width: 5px;
+              height: 5px;}
+      75% {transform: translateX(-85px) translateY(-35px);
+              width: 15px;
+              height: 15px;}
+  }
+  
+button:focus {
+      outline: none;
+  }
+.profile{
+  /* background: url(../Images/fond\ profil\ 1\ tire.jpg);
+  background-size: cover;
+  background-position: center; */
+  height: 100%;
+}
+.height{
+  height: 100%;
+}
+/* .info{
+  background-image: url(../Images/fond\ profil-2.jpg);
+  background-size: cover;
+  background-position: center;
+} */
+.navMenu>ul>li {
+   display: inline-block;
+    min-width: 150px;
+    border-top: 1px solid;
+    text-align: center;
+}
+.navMenu>ul{
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0;
+}
+.big-menu{
+  height: 15%;
+}
+.apropos-contenu{
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.block{
+  height: 150px;
+  margin: 5px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.block-content{
+  justify-content: space-between;
+}
+.block-outil{
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 7px;
+  margin: 5px; 
+}

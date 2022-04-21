@@ -2,7 +2,7 @@
   "name": "mon-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Mahefa-Int.github.io/CV",
+  "homepage": "https://Mahefa-Int.github.io/My-site",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fullpage/react-fullpage": "^0.1.19",
@@ -29,7 +29,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "Deploy": "npm run build&&gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

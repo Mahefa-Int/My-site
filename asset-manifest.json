@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/My-site/static/css/main.edadd4b9.chunk.css",
+    "main.js": "/My-site/static/js/main.3c38d6e6.chunk.js",
+    "main.js.map": "/My-site/static/js/main.3c38d6e6.chunk.js.map",
+    "runtime-main.js": "/My-site/static/js/runtime-main.4802d062.js",
+    "runtime-main.js.map": "/My-site/static/js/runtime-main.4802d062.js.map",
+    "static/css/2.76a48c29.chunk.css": "/My-site/static/css/2.76a48c29.chunk.css",
+    "static/js/2.0a79c880.chunk.js": "/My-site/static/js/2.0a79c880.chunk.js",
+    "static/js/2.0a79c880.chunk.js.map": "/My-site/static/js/2.0a79c880.chunk.js.map",
+    "static/js/3.1fc419f8.chunk.js": "/My-site/static/js/3.1fc419f8.chunk.js",
+    "static/js/3.1fc419f8.chunk.js.map": "/My-site/static/js/3.1fc419f8.chunk.js.map",
+    "index.html": "/My-site/index.html",
+    "static/css/2.76a48c29.chunk.css.map": "/My-site/static/css/2.76a48c29.chunk.css.map",
+    "static/css/main.edadd4b9.chunk.css.map": "/My-site/static/css/main.edadd4b9.chunk.css.map",
+    "static/js/2.0a79c880.chunk.js.LICENSE.txt": "/My-site/static/js/2.0a79c880.chunk.js.LICENSE.txt",
+    "static/media/Audi.9fc8b03e.png": "/My-site/static/media/Audi.9fc8b03e.png",
+    "static/media/Aureol.7429c261.png": "/My-site/static/media/Aureol.7429c261.png",
+    "static/media/CSS.b1dc9eeb.png": "/My-site/static/media/CSS.b1dc9eeb.png",
+    "static/media/HEC.3cc39556.png": "/My-site/static/media/HEC.3cc39556.png",
+    "static/media/HTML5.b7d94634.png": "/My-site/static/media/HTML5.b7d94634.png",
+    "static/media/Misy.png": "/My-site/static/media/Misy.0a60c069.png",
+    "static/media/bootstrap.9cc938d1.png": "/My-site/static/media/bootstrap.9cc938d1.png",
+    "static/media/cosmetic .cd7ded88.png": "/My-site/static/media/cosmetic .cd7ded88.png",
+    "static/media/elo.a91f182c.gif": "/My-site/static/media/elo.a91f182c.gif",
+    "static/media/logo-react.20adfb35.png": "/My-site/static/media/logo-react.20adfb35.png",
+    "static/media/med.8861b0ce.png": "/My-site/static/media/med.8861b0ce.png",
+    "static/media/query.d644bb5f.png": "/My-site/static/media/query.d644bb5f.png",
+    "static/media/right.f1a2aa8b.png": "/My-site/static/media/right.f1a2aa8b.png",
+    "static/media/wordpress.07c48161.png": "/My-site/static/media/wordpress.07c48161.png",
+    "static/media/zoky.ef73de73.jpg": "/My-site/static/media/zoky.ef73de73.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4802d062.js",
+    "static/css/2.76a48c29.chunk.css",
+    "static/js/2.0a79c880.chunk.js",
+    "static/css/main.edadd4b9.chunk.css",
+    "static/js/main.3c38d6e6.chunk.js"
+  ]
+}

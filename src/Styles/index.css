@@ -1,4 +1,4 @@
-p, li, h2, h5, h3, label, ::placeholder, button{
+p, li, h5, h3, label, ::placeholder, button{
   font-size: 12px;
   font-weight: 700;
   /* font-family: 'Lobster Two'; */
